@@ -1,0 +1,223 @@
+<!DOCTYPE html> 
+<html> 
+<meta name="copyright" content="Derechos Reservados - Ricardo Dueñas">   
+<body> 
+
+<h1>Makey Makey Audio player</h1>
+
+<h2>Audio 1 -w-</h2>
+<button onclick="playAud01()" type="button">Play</button><br>
+<button onclick="pauseAud01()" type="button">Pause</button><br>
+<audio id="myAudio01" controls >
+  <source id="wav01_src" src=" sonidos/audio1.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 2 -a-</h2>
+<button onclick="playAud02()" type="button">Play</button><br>
+<button onclick="pauseAud02()" type="button">Pause</button><br>
+<audio id="myAudio02" controls >
+  <source id="wav02_src" src=" sonidos/audio2.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 3 -s-</h2>
+<button onclick="playAud03()" type="button">Play</button><br>
+<button onclick="pauseAud03()" type="button">Pause</button><br>
+<audio id="myAudio03" controls >
+  <source id="wav03_src" src=" sonidos/audio3.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 4 -d- </h2>
+<button onclick="playAud04()" type="button">Play</button><br>
+<button onclick="pauseAud04()" type="button">Pause</button><br>
+<audio id="myAudio04" controls >
+  <source id="wav04_src" src=" sonidos/audio4.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 5 -f-</h2>
+<button onclick="playAud05()" type="button">Play</button><br>
+<button onclick="pauseAud05()" type="button">Pause</button><br>
+<audio id="myAudio05" controls >
+  <source id="wav05_src" src=" sonidos/audio5.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 6 -g-</h2>
+<button onclick="playAud06()" type="button">Play</button><br>
+<button onclick="pauseAud06()" type="button">Pause</button><br>
+<audio id="myAudio06" controls >
+  <source id="wav06_src" src=" sonidos/audio6.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 7 -&uarr;-</h2>
+<button onclick="playAud07()" type="button">Play</button><br>
+<button onclick="pauseAud07()" type="button">Pause</button><br>
+<audio id="myAudio07" controls >
+  <source id="wav07_src" src=" sonidos/audio7.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 8 -&larr;-</h2>
+<button onclick="playAud08()" type="button">Play</button><br>
+<button onclick="pauseAud08()" type="button">Pause</button><br>
+<audio id="myAudio08" controls >
+  <source id="wav08_src" src=" sonidos/audio8.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 9 -&darr;-</h2>
+<button onclick="playAud09()" type="button">Play</button><br>
+<button onclick="pauseAud09()" type="button">Pause</button><br>
+<audio id="myAudio09" controls >
+  <source id="wav09_src" src=" sonidos/audio9.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 10 -&rarr;-</h2>
+<button onclick="playAud10()" type="button">Play</button><br>
+<button onclick="pauseAud10()" type="button">Pause</button><br>
+<audio id="myAudio10" controls >
+  <source id="wav10_src" src=" sonidos/audio10.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+<h2>Audio 11 -espacio-</h2>
+<button onclick="playAud11()" type="button">Play</button><br>
+<button onclick="pauseAud11()" type="button">Pause</button><br>
+<audio id="myAudio11" controls >
+  <source id="wav11_src" src=" sonidos/audio11.wav" type="audio/wav">
+  Your browser does not support HTML5 audio.
+</audio>
+
+<p>Creado por Ricardo Due&ntilde;as para usar con <a href=http://makeymakey.com target=_blank>Makey Makey</a>.<br></p>
+
+<script> 
+var aud01 = document.getElementById("myAudio01"); 
+var aud02 = document.getElementById("myAudio02"); 
+var aud03 = document.getElementById("myAudio03"); 
+var aud04 = document.getElementById("myAudio04"); 
+var aud05 = document.getElementById("myAudio05"); 
+var aud06 = document.getElementById("myAudio06"); 
+var aud07 = document.getElementById("myAudio07"); 
+var aud08 = document.getElementById("myAudio08"); 
+var aud09 = document.getElementById("myAudio09"); 
+var aud10 = document.getElementById("myAudio10"); 
+var aud11 = document.getElementById("myAudio11"); 
+
+/*----------------------*/
+
+function playAud01() { 
+    aud01.currentTime = 0; 
+    aud01.play(); 
+} 
+function pauseAud01() { 
+    aud01.pause(); 
+} 
+
+function playAud02() { 
+    aud02.currentTime = 0; 
+    aud02.play(); 
+} 
+function pauseAud02() { 
+    aud02.pause(); 
+} 
+
+function playAud03() { 
+    aud03.currentTime = 0; 
+    aud03.play(); 
+} 
+function pauseAud03() { 
+    aud03.pause(); 
+} 
+
+function playAud04() { 
+    aud04.currentTime = 0; 
+    aud04.play(); 
+} 
+function pauseAud04() { 
+    aud04.pause(); 
+} 
+
+function playAud05() { 
+    aud05.currentTime = 0; 
+    aud05.play(); 
+} 
+function pauseAud05() { 
+    aud05.pause(); 
+} 
+
+function playAud06() { 
+    aud06.currentTime = 0; 
+    aud06.play(); 
+} 
+function pauseAud06() { 
+    aud06.pause(); 
+} 
+
+function playAud07() { 
+    aud07.currentTime = 0; 
+    aud07.play(); 
+} 
+function pauseAud07() { 
+    aud07.pause(); 
+} 
+
+function playAud08() { 
+    aud08.currentTime = 0; 
+    aud08.play(); 
+} 
+function pauseAud08() { 
+    aud08.pause(); 
+} 
+
+function playAud09() { 
+    aud09.currentTime = 0; 
+    aud09.play(); 
+} 
+function pauseAud09() { 
+    aud09.pause(); 
+} 
+
+function playAud10() { 
+    aud10.currentTime = 0; 
+    aud10.play(); 
+} 
+function pauseAud10() { 
+    aud10.pause(); 
+} 
+
+function playAud11() { 
+    aud11.currentTime = 0; 
+    aud11.play(); 
+} 
+function pauseAud11() { 
+    aud11.pause(); 
+} 
+
+document.onkeydown = function(e) {
+//    var soundId = sounds[e.keyCode];
+    console.log(e.keyCode);
+    if(e.keyCode == 87){
+      playAud01();
+    } else if (e.keyCode == 65){
+      playAud02();
+    } else if (e.keyCode == 83){
+      playAud03();
+    } else if (e.keyCode == 68){
+      playAud04();
+    } else if (e.keyCode == 70){
+      playAud05();
+    } else if (e.keyCode == 71){
+      playAud06();
+    } else if (e.keyCode == 38){
+      playAud07();
+    } else if (e.keyCode == 37){
+      playAud08();
+    } else if (e.keyCode == 40){
+      playAud09();
+    } else if (e.keyCode == 39){
+      playAud10();
+    } else if (e.keyCode == 32){
+      playAud11();
+    }
+}
+
+</script> 
+
+
+</body> 
+</html>
